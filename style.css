@@ -1338,6 +1338,7 @@ textarea .form-control {
 
 @media(max-width:991px ){
   .navbar-default .navbar-nav > li > a {font-size: 13px;padding: 15px 6px;}
+  .navbar-brand > img {width:270px; height: auto;}
   .navbar-brand {font-size: 28px;}
   #slides{height: 600px !important;}
   .slider_caption > h2 {font-size: 48px;line-height: 48px;}
@@ -1362,6 +1363,7 @@ textarea .form-control {
 }
 
 @media(max-width:767px ){
+  .navbar-brand > img {width:200px; height: auto;}
 	.navbar-collapse{background-color: rgba(0,0,0,0.8);}
 	.main_nav{text-align: center;}
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: rgba(0,0,0,0.5);}
@@ -1411,6 +1413,7 @@ textarea .form-control {
 }
 
 @media(max-width:480px ){
+  .navbar-brand > img {width:150px; height: auto;}
 	#slides {height: 320px !important;}
 	.slider_caption {margin-top: 20%;}
 	.slider_caption > h2 { font-size: 20px;line-height: 22px;margin-bottom: 0px;}
@@ -1432,6 +1435,7 @@ textarea .form-control {
 }
 
 @media(max-width:360px ){
+  .navbar-brand > img {width:110px; height: auto;}
 	.slider_caption {margin-top: 28%;}
 	.slider_caption > a {margin-top: 10px;}
 	.slides-navigation h3 {display: none;}
